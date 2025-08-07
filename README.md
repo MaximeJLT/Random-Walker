@@ -44,7 +44,7 @@ directions = randi(4, T, N);
 Each integer (1–4) maps to a move in ±X or ±Y. The script updates each walker's coordinates accordingly.
 
 ### Example Trajectories
-![Example Trajectories](data/ising_clusters.gif)
+![Example Trajectories](data/random_walkers.gif)
 
 ---
 
