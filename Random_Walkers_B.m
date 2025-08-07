@@ -94,5 +94,5 @@ ylabel('MQS filtrée');
 title('Moyenne Quadratique des Déplacements filtrée');
 legend('Données filtrées', 'Ajustement linéaire');
 hold off;
-Fait 
+
 
