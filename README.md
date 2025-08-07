@@ -68,22 +68,22 @@ $$
 - $$N = 3000$$ → $$D \approx 0.2538$$
 
 #### MSD Curves and Histograms
-- ![MSD N=10](figures/MSD_vs_T_N10.png)
-- ![MSD N=100](figures/MSD_vs_T_N100.png)
-- ![MSD N=1000](figures/MSD_vs_T_N1000.png)
-- ![MSD N=3000](figures/MSD_vs_T_N3000.png)
+- ![MSD N=10](figures/MSD_vs_T_N10.jpg)
+- ![MSD N=100](figures/MSD_vs_T_N100.jpg)
+- ![MSD N=1000](figures/MSD_vs_T_N1000.jpg)
+- ![MSD N=3000](figures/MSD_vs_T_N3000.jpg)
 
-- ![Histogram N=10](figures/hist_final_distance_N10.png)
-- ![Histogram N=100](figures/hist_final_distance_N100.png)
-- ![Histogram N=1000](figures/hist_final_distance_N1000.png)
-- ![Histogram N=3000](figures/hist_final_distance_N3000.png)
+- ![Histogram N=10](figures/hist_final_distance_N10.jpg)
+- ![Histogram N=100](figures/hist_final_distance_N100.jpg)
+- ![Histogram N=1000](figures/hist_final_distance_N1000.jpg)
+- ![Histogram N=3000](figures/hist_final_distance_N3000.jpg)
 
 As $$N$$ increases, results stabilize around the theoretical value $$D = 0.25$$. The histogram of final distances converges to a **Rayleigh distribution**, expected when both $$X$$ and $$Y$$ are normally distributed.
 
 ### Statistical Convergence
 To quantify convergence, we plot $$D(N)$$ versus $$N$$:
 
-![Diffusion vs N](figures/diffusion_vs_N.png)
+![Diffusion vs N](figures/diffusion_vs_N.jpg)
 
 Stabilization occurs around $$N \approx 2000$$.
 
@@ -99,10 +99,10 @@ $$
 This time-averaged MSD is computed for $$\tau = 1, 2, \ldots, T-1$$.
 
 ### Example Trajectory
-![Single long trajectory](figures/trajectory_long_single_walker.png)
+![Single long trajectory](figures/trajectory_long_single_walker.jpg)
 
 ### MSD vs Lag Time
-![MSD vs lag time](figures/MSD_vs_tau_single_walker.png)
+![MSD vs lag time](figures/MSD_vs_tau_single_walker.jpg)
 
 In the linear regime, a fit provides the diffusion coefficient.
 
@@ -127,9 +127,7 @@ We introduce a constraint: the walker cannot move in the same direction twice in
 ### Constraint Check
 Each step is verified to ensure the constraint is respected. If not, the script throws an error.
 
-### Comparison Plot
-![Constrained vs Unconstrained Diffusion](figures/constrained_vs_unconstrained_diffusion.png)
-![Example Constrained Path](figures/example_constrained_path.png)
+![Example Constrained Path](figures/example_constrained_path.jpg)
 
 ---
 
